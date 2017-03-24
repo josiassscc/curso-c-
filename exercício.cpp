@@ -11,7 +11,7 @@ int main () {
 	int auxiliar = 1;
 	std::cin >> num;
 	system("cls");
-	std::cout << "Sequencia de Fibonacci inferior a ";
+	std::cout << "Sequencia de Fibonacci menor igual a ";
 	std::cout << num << "\n";
 if (num < 0) { 
 	std::cout << "Número Inválido"; 
