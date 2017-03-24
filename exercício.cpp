@@ -24,7 +24,7 @@ else {
 		auxiliar = atual + anterior;
 		anterior = atual;
 		atual = auxiliar; 
-	} 
+	}
 }
 	std::cout << "\n";
 	system("PAUSE");
