@@ -1,3 +1,5 @@
+//3.Utilizando algum dos tipos de laço vistos em aula, imprima os valores da sequência de Fibonacci, das seguintes formas:
+//Dado um n, até o último elemento da sequência que seja menor ou igual a n.
 #include <iostream>
 #include <stdlib.h>
 
@@ -12,7 +14,7 @@ int main () {
 	std::cout << "Sequencia de Fibonacci inferior a ";
 	std::cout << num << "\n";
 if (num < 0) { 
-	std::cout << "N�mero Inv�lido"; 
+	std::cout << "Número Inválido"; 
 }
 
 else { 
