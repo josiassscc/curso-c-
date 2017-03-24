@@ -13,10 +13,11 @@ int main () {
 	system("cls");
 	std::cout << "Sequencia de Fibonacci menor igual a ";
 	std::cout << num << "\n";
+	
 if (num < 0) { 
-	std::cout << "Número Inválido"; 
-}
-
+	std::cout << "Nao existe na sequencia de Fibonacci um numero menor igual a ";
+	std::cout << num << "\n";
+	}
 else { 
 	while (atual < num) { 
 		std::cout << auxiliar << "\n";
